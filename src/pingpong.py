@@ -1,4 +1,4 @@
-import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+'''import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 import random
 
 WIDTH = 600
@@ -104,4 +104,4 @@ frame.set_keyup_handler(keyup)
 frame.add_button("Restart", restart_handler, 100)
 
 frame.start()
-new_game()
+new_game()'''
