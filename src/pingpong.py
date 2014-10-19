@@ -1,7 +1,4 @@
-# To change this license header, choose License Headers in Project Properties.
-# To change this template file, choose Tools | Templates
-# and open the template in the editor.
-from tkintner
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 import random
 
 WIDTH = 600
@@ -83,6 +80,7 @@ def keydown(key):
     if key == simplegui.KEY_MAP["up"]:
         paddle2_vel = -vel   
    
+   
 def keyup(key):
     global paddle1_vel, paddle2_vel
     if key == simplegui.KEY_MAP["s"]:
@@ -94,8 +92,11 @@ def keyup(key):
     if key == simplegui.KEY_MAP["up"]:
         paddle2_vel = 0  
         
+        
 def restart_handler():
     new_game()
+    
+    
 frame = simplegui.create_frame("Pong", WIDTH, HEIGHT)
 frame.set_draw_handler(draw)
 frame.set_keydown_handler(keydown)
