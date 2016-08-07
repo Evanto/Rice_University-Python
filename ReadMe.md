@@ -1,4 +1,4 @@
-#Rice University проэкты
+#Rice University проекты
 
 ![alt text][logo]
 
